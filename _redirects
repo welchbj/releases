@@ -1,0 +1,2 @@
+/github/:project_name/windows/:version https://github.com/welchbj/:project_name/releases/download/rel-:version/:project_name.exe
+/github/:project_name/linux/:version https://github.com/welchbj/:project_name/releases/download/rel-:version/:project_name
