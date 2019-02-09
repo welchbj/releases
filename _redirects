@@ -1,7 +1,11 @@
 # generic format followed by my GitHub projects
 /github/:project_name/linux/:version      https://github.com/welchbj/:project_name/releases/download/rel-:version/:project_name
 /github/:project_name/windows/:version    https://github.com/welchbj/:project_name/releases/download/rel-:version/:project_name.exe
+/github/:project_name/tarball/:version    https://github.com/welchbj/:project_name/archive/rel-:version.tar.gz
+/github/:project_name/zipped/:version     https://github.com/welchbj/:project_name/archive/rel-:version.zip
 
 # latest releases; these need to be hardcoded since GitHub won't route directly to a `latest` download URL
 /bscan/linux      https://github.com/welchbj/bscan/releases/download/rel-0.1.4/bscan
 /bscan/windows    https://github.com/welchbj/bscan/releases/download/rel-0.1.4/bscan.exe
+/bscan/tarball    https://github.com/welchbj/bscan/archive/rel-0.1.4.tar.gz
+/bscan/zipped     https://github.com/welchbj/bscan/archive/rel-0.1.4.zip
